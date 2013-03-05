@@ -1,4 +1,5 @@
-include ApplicationHelper
+# this is a copy of ../spec/support/utilities.rb
+# this is used to make these helpers and custom matchers accesible to cucumber
 
 RSpec::Matchers.define :have_error_message do |message|
   match do |page|
